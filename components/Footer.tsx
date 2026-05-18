@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const COLS: Array<[string, Array<[string, string]>]> = [
   ["Product", [["Modules", "#features"], ["Blink", "#blink"], ["Performance", "#performance"], ["Loader", "#injection"]]],
-  ["Compatibility", [["Mappings", "#compatibility"], ["Validation", "#comparison"], ["Roadmap", "#roadmap"]]],
+  ["Compatibility", [["Mappings", "#compatibility"], ["Roadmap", "#roadmap"]]],
   ["Resources", [["Feature list", "#more"], ["Changelog", "#changelog"], ["Status", "#status"]]],
   ["Account", [["Login", "#account"], ["Settings", "#configs"], ["Support", "#support"]]],
 ];
