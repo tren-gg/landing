@@ -3,11 +3,11 @@ import { Section, SectionHeader } from "../Section";
 const MODES = [
   {
     name: "Outgoing Only",
-    desc: "Queues outgoing packets while incoming updates continue.",
+    desc: "Your packets stop leaving while incoming ones keep arriving. Other players see you frozen in place. You can move freely and see everything happening around you — then release, and you teleport to your new position from their perspective.",
   },
   {
     name: "Incoming and Outgoing",
-    desc: "Uses the full Blink behavior for both directions.",
+    desc: "All packets are held in both directions. The world freezes for you too. When you release, your position updates and the world catches up at once. Useful when you want full control over exactly what state gets synced.",
   },
 ];
 
@@ -23,7 +23,7 @@ export default function Blink() {
             Blink holds.
           </>
         }
-        lede="Blink exposes its packet behavior as a simple mode choice."
+        lede="Hold your position in place for other players, move freely, then release — they see you teleport instantly to wherever you ended up."
       />
 
       <ul className="mt-16 grid grid-cols-1 gap-px border border-black/10 bg-black/10 md:grid-cols-2">
