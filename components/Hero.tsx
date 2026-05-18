@@ -4,12 +4,10 @@ import SyringeMark from "./SyringeMark";
 export default function Hero() {
   return (
     <section className="relative isolate overflow-hidden bg-ink-950 text-white">
-      <div aria-hidden className="absolute inset-x-0 top-0 h-px bg-white/10" />
-
       <div className="relative mx-auto grid max-w-page grid-cols-12 items-center gap-10 px-6 pt-24 pb-24 md:pt-32 md:pb-32">
         <div className="col-span-12 lg:col-span-7">
           <h1 className="max-w-4xl text-[clamp(3.25rem,8vw,8rem)] font-medium leading-[0.92] tracking-tightest">
-            A quieter Minecraft utility.
+            Inject tren.
           </h1>
           <p className="mt-8 max-w-xl text-lg leading-relaxed text-ink-200 md:text-xl">
             Tren is a sleek C++ Minecraft utility with secure configs, clean
@@ -34,8 +32,8 @@ export default function Hero() {
         </div>
 
         <div className="col-span-12 lg:col-span-5">
-          <div className="relative mx-auto flex aspect-square max-w-[520px] items-center justify-center border border-white/15 bg-white/[0.02]">
-            <SyringeMark className="h-[62%] w-[62%] text-white" />
+          <div className="relative mx-auto flex aspect-square max-w-[520px] items-center justify-center">
+            <SyringeMark className="h-[78%] w-[78%] text-white" />
           </div>
         </div>
       </div>

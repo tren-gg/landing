@@ -29,8 +29,8 @@ export default function Injection() {
 
         <div className="col-span-12 lg:col-span-7">
           <div className="grid grid-cols-12 gap-6 border border-white/10 p-6">
-            <div className="col-span-12 flex items-center justify-center border border-white/10 py-12 sm:col-span-4">
-              <SyringeMark className="h-36 w-36 text-white" />
+            <div className="col-span-12 flex items-center justify-center py-12 sm:col-span-4">
+              <SyringeMark className="h-48 w-48 text-white" />
             </div>
             <ol className="col-span-12 divide-y divide-white/10 sm:col-span-8">
               {STEPS.map((step, index) => (

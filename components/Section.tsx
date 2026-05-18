@@ -34,21 +34,6 @@ export function Section({
         className,
       ].join(" ")}
     >
-      {/* top + bottom hairlines */}
-      <div
-        aria-hidden
-        className={[
-          "absolute inset-x-0 top-0 h-px",
-          isDark ? "bg-white/10" : "bg-black/10",
-        ].join(" ")}
-      />
-      <div
-        aria-hidden
-        className={[
-          "absolute inset-x-0 bottom-0 h-px",
-          isDark ? "bg-white/10" : "bg-black/10",
-        ].join(" ")}
-      />
       <div className="relative mx-auto max-w-page px-6">{children}</div>
     </section>
   );
