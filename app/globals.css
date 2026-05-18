@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #070708;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+html,
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  font-feature-settings: "ss01", "cv11";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+::selection {
+  background: #070708;
+  color: #ffffff;
+}
+
+/* Hairline rule used across the page */
+.rule {
+  height: 1px;
+  width: 100%;
+  background: currentColor;
+  opacity: 0.12;
+}
+
+/* Subtle dot/line grid backdrop for dark sections */
+.grid-backdrop-dark {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+  background-size: 64px 64px;
+  background-position: -1px -1px;
+}
+
+.grid-backdrop-light {
+  background-image:
+    linear-gradient(to right, rgba(0, 0, 0, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.04) 1px, transparent 1px);
+  background-size: 64px 64px;
+  background-position: -1px -1px;
+}
+
+/* Custom scrollbar: quiet, mono */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+  background: #1c1c22;
+  border: 2px solid #ffffff;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #070708;
+}
+
+/* Mockup window dot row */
+.win-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 9999px;
+  border: 1px solid currentColor;
+  opacity: 0.5;
+}
