@@ -4,7 +4,7 @@ import SyringeMark from "./SyringeMark";
 
 export default function CTA() {
   return (
-    <Section id="download" tone="dark">
+    <Section id="download" tone="light">
       <div className="relative grid grid-cols-12 items-center gap-10">
         <div className="col-span-12 lg:col-span-8">
           <h2 className="text-5xl font-medium leading-[0.95] tracking-tightest md:text-7xl">
@@ -12,7 +12,7 @@ export default function CTA() {
             <br />
             local build.
           </h2>
-          <p className="mt-6 max-w-xl text-lg text-ink-200">
+          <p className="mt-6 max-w-xl text-lg text-ink-500">
             The current build is focused on Windows. Account access stays
             available from the navigation.
           </p>
@@ -20,13 +20,13 @@ export default function CTA() {
           <div className="mt-10 flex flex-wrap items-center gap-3">
             <Link
               href="#account"
-              className="inline-flex h-12 items-center gap-3 bg-white px-6 text-[14px] font-medium text-ink-950 transition-colors hover:bg-ink-100"
+              className="inline-flex h-12 items-center gap-3 bg-ink-950 px-6 text-[14px] font-medium text-white transition-colors hover:bg-ink-800"
             >
               Open account
             </Link>
             <Link
               href="#docs"
-              className="inline-flex h-12 items-center gap-3 text-[14px] text-ink-200 underline-offset-4 transition-colors hover:text-white hover:underline"
+              className="inline-flex h-12 items-center gap-3 text-[14px] text-ink-500 underline-offset-4 transition-colors hover:text-ink-950 hover:underline"
             >
               Read the feature list
             </Link>
@@ -35,7 +35,7 @@ export default function CTA() {
 
         <div className="col-span-12 lg:col-span-4">
           <div className="relative mx-auto flex h-72 w-72 items-center justify-center">
-            <SyringeMark className="h-64 w-64 text-white" />
+            <SyringeMark className="h-64 w-64 text-ink-950" />
           </div>
         </div>
       </div>

@@ -11,11 +11,11 @@ const STEPS = [
 
 export default function Injection() {
   return (
-    <Section id="injection" tone="dark">
+    <Section id="injection" tone="light">
       <div className="grid grid-cols-12 items-center gap-10">
         <div className="col-span-12 lg:col-span-5">
           <SectionHeader
-            tone="dark"
+            tone="light"
             title={
               <>
                 A sleek
@@ -28,14 +28,14 @@ export default function Injection() {
         </div>
 
         <div className="col-span-12 lg:col-span-7">
-          <div className="grid grid-cols-12 gap-6 border border-white/10 p-6">
+          <div className="grid grid-cols-12 gap-6 border border-black/10 p-6">
             <div className="col-span-12 flex items-center justify-center py-12 sm:col-span-4">
-              <SyringeMark className="h-48 w-48 text-white" />
+              <SyringeMark className="h-48 w-48 text-ink-950" />
             </div>
-            <ol className="col-span-12 divide-y divide-white/10 sm:col-span-8">
+            <ol className="col-span-12 divide-y divide-black/10 sm:col-span-8">
               {STEPS.map((step, index) => (
                 <li key={step} className="flex items-center gap-5 py-5">
-                  <span className="text-sm text-ink-300">
+                  <span className="text-sm text-ink-500">
                     {String(index + 1).padStart(2, "0")}
                   </span>
                   <span className="text-xl font-medium">{step}</span>
