@@ -3,22 +3,22 @@ import { GeistSans } from "geist/font/sans";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "tren. Minecraft client UI",
+  title: "Tren Minecraft utility",
   description:
-    "tren. is a Minecraft desktop client interface focused on current modules, local configs, Blink packet modes, and clear mapping notes.",
-  applicationName: "tren.",
-  authors: [{ name: "tren." }],
+    "Tren is a Minecraft utility focused on current modules, saved configs, Blink packet modes, and clear mapping notes.",
+  applicationName: "Tren",
+  authors: [{ name: "Tren" }],
   keywords: [
     "tren",
     "Minecraft utility",
-    "Minecraft client",
+    "Minecraft utility",
     "Blink",
     "module configuration",
   ],
   openGraph: {
-    title: "tren.",
+    title: "Tren",
     description:
-      "A Minecraft desktop client page with current modules and honest compatibility notes.",
+      "A Minecraft utility page with current modules and honest compatibility notes.",
     type: "website",
   },
   robots: { index: true, follow: true },

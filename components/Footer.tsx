@@ -24,8 +24,8 @@ export default function Footer() {
               />
             </div>
             <p className="mt-6 max-w-xs text-sm text-ink-500 leading-relaxed">
-              A Minecraft desktop client page with restrained copy, current
-              modules, and clear compatibility notes.
+              A Minecraft utility page with restrained copy, current modules,
+              and clear compatibility notes.
             </p>
             <div className="mt-8 flex items-center gap-3 text-[11px] uppercase tracking-[0.22em] text-ink-500">
               <span className="block h-1.5 w-1.5 bg-ink-950" />
@@ -58,7 +58,7 @@ export default function Footer() {
 
         <div className="mt-16 flex flex-col items-start justify-between gap-4 border-t border-black/10 pt-6 md:flex-row md:items-center">
           <div className="text-[11px] uppercase tracking-[0.22em] text-ink-500">
-            © {new Date().getFullYear()} tren. built for players.
+            (c) {new Date().getFullYear()} Tren. Built for players.
           </div>
           <div className="flex items-center gap-6 text-[11px] uppercase tracking-[0.22em] text-ink-500">
             <Link href="#terms" className="hover:text-ink-950">Terms</Link>

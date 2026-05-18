@@ -74,12 +74,3 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #070708;
 }
-
-/* Mockup window dot row */
-.win-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 9999px;
-  border: 1px solid currentColor;
-  opacity: 0.5;
-}

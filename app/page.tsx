@@ -2,7 +2,6 @@ import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
 import Combat from "@/components/sections/Combat";
 import Visuals from "@/components/sections/Visuals";
-import Movement from "@/components/sections/Movement";
 import Blink from "@/components/sections/Blink";
 import Configs from "@/components/sections/Configs";
 import UI from "@/components/sections/UI";
@@ -20,7 +19,6 @@ export default function Home() {
       <Hero />
       <Combat />
       <Visuals />
-      <Movement />
       <Blink />
       <Configs />
       <UI />

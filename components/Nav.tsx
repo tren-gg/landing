@@ -14,7 +14,7 @@ export default function Nav() {
       <div className="mx-auto flex h-14 max-w-page items-center justify-between px-6">
         <Link
           href="/"
-          aria-label="tren. home"
+          aria-label="Tren home"
           className="group flex items-center gap-2.5"
         >
           <span className="relative block h-6 w-[72px] overflow-hidden">
@@ -53,7 +53,6 @@ export default function Nav() {
             className="inline-flex h-9 items-center gap-2 border border-white/15 bg-white px-4 text-[13px] font-medium text-ink-950 transition-colors hover:bg-ink-100"
           >
             account
-            <span aria-hidden className="text-ink-400">→</span>
           </Link>
         </div>
       </div>

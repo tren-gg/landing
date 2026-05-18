@@ -4,7 +4,7 @@ const VERSIONS = [
   ["1.7.10",  "casual mappings"],
   ["1.7.10",  "forge mappings"],
   ["1.8",     "casual mappings"],
-  ["1.8",     "forge-style mappings"],
+  ["1.8",     "forge style mappings"],
 ];
 
 export default function Mappings() {
@@ -12,7 +12,6 @@ export default function Mappings() {
     <Section id="compatibility" tone="light">
       <SectionHeader
         tone="light"
-        eyebrow="Compatibility · mapping updates"
         title={
           <>
             Mapping tables,

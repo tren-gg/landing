@@ -7,11 +7,11 @@ const ITEMS = [
   },
   {
     name: "Keybinds",
-    copy: "Per-module binds for toggles and quick testing.",
+    copy: "Binds for toggles and quick testing.",
   },
   {
     name: "Bridge Assist",
-    copy: "A focused utility around right-click bridge behavior.",
+    copy: "A focused utility around right click bridge behavior.",
   },
   {
     name: "Throw Pearl",
@@ -22,19 +22,15 @@ const ITEMS = [
     copy: "One, double, and smart modes with separate switch and throw delays.",
   },
   {
-    name: "Timer Speed",
-    copy: "A speed value with optional moving and weapon checks.",
-  },
-  {
     name: "Block ESP",
-    copy: "Radius and block-list settings for block highlighting.",
+    copy: "Radius and block list settings for block highlighting.",
   },
   {
-    name: "Blink Timer",
-    copy: "A visible timer and path display for Blink sessions.",
+    name: "Blink Display",
+    copy: "Path display controls for Blink sessions.",
   },
   {
-    name: "Local Configs",
+    name: "Saved Configs",
     copy: "Save and load module values through the existing config system.",
   },
 ];
@@ -44,15 +40,14 @@ export default function FeatureGrid() {
     <Section id="more" tone="dark">
       <SectionHeader
         tone="dark"
-        eyebrow="Everything else"
         title={
           <>
-            Quiet defaults
+            More controls
             <br />
-            for loud players.
+            without the clutter.
           </>
         }
-        lede="Additional current controls, kept compact and presented without inflated feature claims."
+        lede="Additional controls that are currently part of Tren."
       />
 
       <ul className="mt-16 grid grid-cols-12 gap-px bg-white/10 border border-white/10">
@@ -63,7 +58,7 @@ export default function FeatureGrid() {
           >
             <div className="flex items-center justify-between text-[10px] uppercase tracking-[0.22em] text-ink-400">
               <span>{String(i + 1).padStart(2, "0")}</span>
-              <span>module</span>
+              <span>feature</span>
             </div>
             <h3 className="mt-4 text-2xl font-medium tracking-tightest">
               {it.name}
