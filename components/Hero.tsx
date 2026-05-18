@@ -4,7 +4,6 @@ import SyringeMark from "./SyringeMark";
 export default function Hero() {
   return (
     <section className="relative isolate overflow-hidden bg-ink-950 text-white">
-      <div aria-hidden className="absolute inset-0 grid-backdrop-dark" />
       <div aria-hidden className="absolute inset-x-0 top-0 h-px bg-white/10" />
 
       <div className="relative mx-auto grid max-w-page grid-cols-12 items-center gap-10 px-6 pt-24 pb-24 md:pt-32 md:pb-32">
@@ -13,8 +12,9 @@ export default function Hero() {
             A quieter Minecraft utility.
           </h1>
           <p className="mt-8 max-w-xl text-lg leading-relaxed text-ink-200 md:text-xl">
-            Tren keeps the useful parts close: combat controls, visuals, Blink,
-            configs, and a loader that stays out of the way.
+            Tren is a sleek C++ Minecraft utility with secure configs, clean
+            combat controls, visuals, Blink, and a loader that stays out of the
+            way.
           </p>
 
           <div className="mt-10 flex flex-wrap items-center gap-3">

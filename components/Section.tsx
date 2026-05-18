@@ -28,8 +28,8 @@ export function Section({
             ? "bg-ink-950 text-white"
             : "bg-white text-ink-950"
           : isDark
-          ? "bg-ink-950 text-white grid-backdrop-dark"
-          : "bg-white text-ink-950 grid-backdrop-light",
+          ? "bg-ink-950 text-white"
+          : "bg-white text-ink-950",
         bleed ? "" : "py-28 md:py-36",
         className,
       ].join(" ")}

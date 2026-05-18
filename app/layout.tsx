@@ -5,20 +5,20 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Tren Minecraft utility",
   description:
-    "Tren is a Minecraft utility focused on current modules, saved configs, Blink packet modes, and clear mapping notes.",
+    "Tren is a sleek C++ Minecraft utility focused on secure saved configs, current modules, Blink packet modes, and clear mapping notes.",
   applicationName: "Tren",
   authors: [{ name: "Tren" }],
   keywords: [
     "tren",
     "Minecraft utility",
-    "Minecraft utility",
+    "C++ Minecraft utility",
     "Blink",
     "module configuration",
   ],
   openGraph: {
     title: "Tren",
     description:
-      "A Minecraft utility page with current modules and honest compatibility notes.",
+      "A sleek C++ Minecraft utility page with secure saved configs and clear compatibility notes.",
     type: "website",
   },
   robots: { index: true, follow: true },

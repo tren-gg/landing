@@ -42,23 +42,6 @@ body {
   opacity: 0.12;
 }
 
-/* Subtle dot/line grid backdrop for dark sections */
-.grid-backdrop-dark {
-  background-image:
-    linear-gradient(to right, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
-  background-size: 64px 64px;
-  background-position: -1px -1px;
-}
-
-.grid-backdrop-light {
-  background-image:
-    linear-gradient(to right, rgba(0, 0, 0, 0.04) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.04) 1px, transparent 1px);
-  background-size: 64px 64px;
-  background-position: -1px -1px;
-}
-
 /* Custom scrollbar: quiet, mono */
 ::-webkit-scrollbar {
   width: 10px;

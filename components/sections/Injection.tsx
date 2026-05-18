@@ -17,12 +17,12 @@ export default function Injection() {
             tone="dark"
             title={
               <>
-                A small
+                A sleek
                 <br />
-                Windows loader.
+                C++ loader.
               </>
             }
-            lede="The loader keeps startup simple and moves quickly into the UI."
+            lede="The loader keeps startup secure, simple, and focused."
           />
         </div>
 

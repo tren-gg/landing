@@ -31,7 +31,7 @@ const ITEMS = [
   },
   {
     name: "Saved Configs",
-    copy: "Save and load module values through the existing config system.",
+    copy: "Secure saved settings for module values, binds, colors, and modes.",
   },
 ];
 

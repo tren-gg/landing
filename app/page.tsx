@@ -4,7 +4,6 @@ import Combat from "@/components/sections/Combat";
 import Visuals from "@/components/sections/Visuals";
 import Blink from "@/components/sections/Blink";
 import Configs from "@/components/sections/Configs";
-import UI from "@/components/sections/UI";
 import Injection from "@/components/sections/Injection";
 import Mappings from "@/components/sections/Mappings";
 import FeatureGrid from "@/components/FeatureGrid";
@@ -21,7 +20,6 @@ export default function Home() {
       <Visuals />
       <Blink />
       <Configs />
-      <UI />
       <Injection />
       <Mappings />
       <FeatureGrid />

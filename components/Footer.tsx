@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const COLS: Array<[string, Array<[string, string]>]> = [
-  ["Product", [["Modules", "#features"], ["Blink", "#blink"], ["Configs", "#configs"], ["UI", "#ui"]]],
+  ["Product", [["Modules", "#features"], ["Blink", "#blink"], ["Configs", "#configs"], ["Loader", "#injection"]]],
   ["Compatibility", [["Mappings", "#compatibility"], ["Validation", "#comparison"], ["Roadmap", "#roadmap"]]],
   ["Resources", [["Feature list", "#more"], ["Changelog", "#changelog"], ["Status", "#status"]]],
   ["Account", [["Login", "#account"], ["Settings", "#configs"], ["Support", "#support"]]],
