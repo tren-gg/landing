@@ -4,6 +4,7 @@ import Link from "next/link";
 const NAV_LINKS = [
   { href: "#features", label: "Features" },
   { href: "#blink", label: "Blink" },
+  { href: "#performance", label: "Performance" },
   { href: "#configs", label: "Configs" },
   { href: "#compatibility", label: "Compatibility" },
 ];

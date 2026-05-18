@@ -5,6 +5,7 @@ import Visuals from "@/components/sections/Visuals";
 import Blink from "@/components/sections/Blink";
 import Configs from "@/components/sections/Configs";
 import Injection from "@/components/sections/Injection";
+import Performance from "@/components/sections/Performance";
 import Mappings from "@/components/sections/Mappings";
 import FeatureGrid from "@/components/FeatureGrid";
 import Comparison from "@/components/Comparison";
@@ -21,6 +22,7 @@ export default function Home() {
       <Blink />
       <Configs />
       <Injection />
+      <Performance />
       <Mappings />
       <FeatureGrid />
       <Comparison />

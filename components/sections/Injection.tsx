@@ -4,6 +4,7 @@ import SyringeMark from "../SyringeMark";
 const STEPS = [
   "Find the running game",
   "Prepare the loader",
+  "Attach through Java Native Interface",
   "Apply saved settings",
   "Open the Tren UI",
 ];
