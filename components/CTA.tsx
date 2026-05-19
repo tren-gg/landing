@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Section } from "./Section";
+import SubscribeButton from "./SubscribeButton";
 import SyringeMark from "./SyringeMark";
 
 export default function CTA() {
@@ -18,12 +19,7 @@ export default function CTA() {
           </p>
 
           <div className="mt-10 flex flex-wrap items-center gap-3">
-            <Link
-              href="#account"
-              className="inline-flex h-12 items-center gap-3 bg-ink-950 px-6 text-[14px] font-medium text-white transition-colors hover:bg-ink-800"
-            >
-              Open account
-            </Link>
+            <SubscribeButton />
             <Link
               href="#docs"
               className="inline-flex h-12 items-center gap-3 text-[14px] text-ink-500 underline-offset-4 transition-colors hover:text-ink-950 hover:underline"
