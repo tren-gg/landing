@@ -21,10 +21,10 @@ export default function CTA() {
           <div className="mt-8 flex flex-col gap-3 sm:mt-10 sm:flex-row sm:flex-wrap sm:items-center">
             <SubscribeButton />
             <Link
-              href="#docs"
+              href="/tldr"
               className="inline-flex h-12 w-full items-center justify-center gap-3 text-[14px] text-ink-500 underline-offset-4 transition-colors hover:text-ink-950 hover:underline sm:w-auto sm:justify-start"
             >
-              Read the feature list
+              Read the legal TL;DR
             </Link>
           </div>
         </div>
