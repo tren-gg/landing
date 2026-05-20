@@ -84,4 +84,4 @@ The Company reserves the right, in its sole and absolute discretion, to amend, s
 
 All inquiries, requests, complaints, and other communications relating to this Policy shall be directed to:
 
-**legal@tren.gg**
+**[Support](/contact#reveal)**

@@ -34,7 +34,7 @@ Refund requests are evaluated on a case-by-case basis and considered only where 
 
 ## Chargebacks
 
-Initiating a chargeback, payment dispute, or reversal constitutes a material breach of the Terms and will result in immediate account termination, forfeiture of remaining subscription time, and permanent denylisting. Users who believe a charge is incorrect should contact legal@tren.gg before disputing with their payment provider.
+Initiating a chargeback, payment dispute, or reversal constitutes a material breach of the Terms and will result in immediate account termination, forfeiture of remaining subscription time, and permanent denylisting. Users who believe a charge is incorrect should contact [Support](/contact#reveal) before disputing with their payment provider.
 
 ## Seats, Accounts, and Resale
 
@@ -81,9 +81,9 @@ The Service is intended for users 18 years of age or older for purposes of contr
 
 ## Dispute Resolution
 
-Disputes are subject to a 30-day informal resolution period commenced by written notice to legal@tren.gg. Unresolved disputes proceed to individual binding arbitration administered by the American Arbitration Association in San Jose, California, or remotely at the user's election. Class actions, collective proceedings, and consolidated arbitration are waived.
+Disputes are subject to a 30-day informal resolution period commenced by written notice to [Support](/contact#reveal). Unresolved disputes proceed to individual binding arbitration administered by the American Arbitration Association in San Jose, California, or remotely at the user's election. Class actions, collective proceedings, and consolidated arbitration are waived.
 
-Users may opt out of arbitration by written notice to legal@tren.gg within 30 days of first accepting the Terms. Claims qualifying for small claims jurisdiction may be brought in that forum. All other proceedings are subject to the exclusive jurisdiction of the state and federal courts located in Santa Clara County, California, under California law.
+Users may opt out of arbitration by written notice to [Support](/contact#reveal) within 30 days of first accepting the Terms. Claims qualifying for small claims jurisdiction may be brought in that forum. All other proceedings are subject to the exclusive jurisdiction of the state and federal courts located in Santa Clara County, California, under California law.
 
 ## Limitation of Liability
 
@@ -91,7 +91,7 @@ The Service is provided on an "as is" and "as available" basis. Tren's total cum
 
 ## User Rights
 
-Users may access, correct, export, or delete their data by contacting legal@tren.gg from the account email. Additional rights may apply under the GDPR, UK GDPR, or CCPA depending on the user's jurisdiction. Tren honors all such rights as required by applicable law.
+Users may access, correct, export, or delete their data by contacting [Support](/contact#reveal) from the account email. Additional rights may apply under the GDPR, UK GDPR, or CCPA depending on the user's jurisdiction. Tren honors all such rights as required by applicable law.
 
 ## Export and Sanctions
 
@@ -103,7 +103,7 @@ Either document may be amended at any time. Material amendments will be communic
 
 ## Contact
 
-legal@tren.gg
+[Support](/contact#reveal)
 
 ---
 

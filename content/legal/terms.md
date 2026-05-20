@@ -14,7 +14,7 @@ You may use the Service only if you are at least 18 years old and able to form a
 
 ## 2. Accounts
 
-To use the Service you must register for an account through the Portal. You are responsible for maintaining the confidentiality of your credentials and for all activity that occurs under your account. You must notify us immediately at legal@tren.gg if you suspect any unauthorized access.
+To use the Service you must register for an account through the Portal. You are responsible for maintaining the confidentiality of your credentials and for all activity that occurs under your account. You must notify us immediately at [Support](/contact#reveal) if you suspect any unauthorized access.
 
 Each account is for a single individual. You may not share, transfer, lend, lease, or sell access to your account or your credentials. The seats included with your subscription are for use across your own personal computers only and may not be allocated to any other person.
 
@@ -60,11 +60,11 @@ The Service is offered solely on a recurring subscription basis. By subscribing,
 
 ## 8. Refunds
 
-All sales are final, subject to the following limited exception. We will consider a refund request on a case-by-case basis only if (i) the request is submitted to legal@tren.gg within 24 to 48 hours of the original charge, and (ii) the Service is materially non-functional through no fault of yours. We do not issue refunds for user error, change of mind, dissatisfaction with features, account termination for cause, third-party enforcement actions (including bans on any Minecraft server or platform), or any other reason not described above.
+All sales are final, subject to the following limited exception. We will consider a refund request on a case-by-case basis only if (i) the request is submitted to [Support](/contact#reveal) within 24 to 48 hours of the original charge, and (ii) the Service is materially non-functional through no fault of yours. We do not issue refunds for user error, change of mind, dissatisfaction with features, account termination for cause, third-party enforcement actions (including bans on any Minecraft server or platform), or any other reason not described above.
 
 ## 9. Chargebacks
 
-Initiating a chargeback, payment dispute, or reversal with your payment provider in respect of any charge from Tren constitutes a material breach of these Terms. We will treat any such action as grounds for immediate termination of your account, forfeiture of all remaining subscription time, and addition to an internal denylist preventing future purchases. If you believe a charge is incorrect, contact legal@tren.gg before initiating any dispute with your payment provider.
+Initiating a chargeback, payment dispute, or reversal with your payment provider in respect of any charge from Tren constitutes a material breach of these Terms. We will treat any such action as grounds for immediate termination of your account, forfeiture of all remaining subscription time, and addition to an internal denylist preventing future purchases. If you believe a charge is incorrect, contact [Support](/contact#reveal) before initiating any dispute with your payment provider.
 
 ## 10. Suspension and Termination
 
@@ -99,7 +99,7 @@ You retain ownership of any configurations or settings you create using the Clie
 
 ## 12. DMCA and Copyright Complaints
 
-If you believe content on the Service or distributed in connection with it infringes your copyright, you may submit a notice under the Digital Millennium Copyright Act to legal@tren.gg. Your notice must include:
+If you believe content on the Service or distributed in connection with it infringes your copyright, you may submit a notice under the Digital Millennium Copyright Act to [Support](/contact#reveal). Your notice must include:
 
 (a) a physical or electronic signature of the copyright owner or a person authorized to act on the owner's behalf;
 (b) identification of the copyrighted work claimed to be infringed;
@@ -132,13 +132,13 @@ TREN'S TOTAL CUMULATIVE LIABILITY ARISING OUT OF OR RELATING TO THE SERVICE OR T
 
 You and Tren agree that any dispute, claim, or controversy arising out of or relating to these Terms or the Service (a "Dispute") will be resolved by binding individual arbitration, except that either party may bring an action in small claims court for any claim that qualifies for small claims jurisdiction.
 
-**Informal resolution.** Before initiating arbitration, you must send a written notice of the Dispute to legal@tren.gg describing the nature of the claim and the relief sought. The parties will attempt in good faith to resolve the Dispute informally for 30 days before either party may initiate arbitration.
+**Informal resolution.** Before initiating arbitration, you must send a written notice of the Dispute to [Support](/contact#reveal) describing the nature of the claim and the relief sought. The parties will attempt in good faith to resolve the Dispute informally for 30 days before either party may initiate arbitration.
 
 **Arbitration rules.** Arbitration will be administered by the American Arbitration Association ("AAA") under its Consumer Arbitration Rules then in effect. Arbitration will be conducted by a single arbitrator in San Jose, California, or remotely by telephone or video conference if you prefer.
 
 **Class action waiver.** YOU AND TREN AGREE THAT ANY DISPUTE WILL BE BROUGHT IN AN INDIVIDUAL CAPACITY ONLY AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY CLASS, COLLECTIVE, OR REPRESENTATIVE ACTION. THE ARBITRATOR MAY NOT CONSOLIDATE CLAIMS FROM MULTIPLE USERS AND MAY NOT PRESIDE OVER ANY FORM OF REPRESENTATIVE PROCEEDING.
 
-**Opt-out.** You may opt out of this arbitration agreement by sending written notice to legal@tren.gg within 30 days of first accepting these Terms. Your notice must include your account email and a clear statement that you wish to opt out of arbitration. Opting out will not affect any other provision of these Terms.
+**Opt-out.** You may opt out of this arbitration agreement by sending written notice to [Support](/contact#reveal) within 30 days of first accepting these Terms. Your notice must include your account email and a clear statement that you wish to opt out of arbitration. Opting out will not affect any other provision of these Terms.
 
 **Severability of this section.** If the class action waiver is held unenforceable in a particular case, that case will proceed in court, but the remainder of this Section 16 will remain in effect.
 
@@ -168,7 +168,7 @@ We may modify these Terms at any time by posting a revised version with a new ef
 
 **Assignment.** You may not assign or transfer these Terms, by operation of law or otherwise, without our prior written consent. We may assign these Terms freely.
 
-**Notices.** Notices to you may be provided by email to the address associated with your account or by posting to the Portal. Notices to us must be sent to legal@tren.gg.
+**Notices.** Notices to you may be provided by email to the address associated with your account or by posting to the Portal. Notices to us must be sent to [Support](/contact#reveal).
 
 **Independent parties.** No partnership, joint venture, employment, or agency relationship is created by these Terms.
 
@@ -176,4 +176,4 @@ We may modify these Terms at any time by posting a revised version with a new ef
 
 For questions about these Terms, contact:
 
-**legal@tren.gg**
+**[Support](/contact#reveal)**
