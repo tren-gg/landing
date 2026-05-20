@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 const NAV_LINKS = [
@@ -18,15 +17,11 @@ export default function Nav() {
           aria-label="Tren home"
           className="group flex items-center gap-2.5"
         >
-          <span className="relative block h-6 w-[72px] overflow-hidden">
-            <Image
-              src="/tren.jpg"
-              alt="tren."
-              fill
-              priority
-              sizes="72px"
-              className="object-contain object-left"
-            />
+          <span
+            aria-hidden="true"
+            className="select-none text-[27px] font-light leading-none text-white"
+          >
+            tren.
           </span>
         </Link>
 

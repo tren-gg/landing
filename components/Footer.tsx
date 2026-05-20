@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 const COLS: Array<[string, Array<[string, string]>]> = [
@@ -14,14 +13,11 @@ export default function Footer() {
       <div className="mx-auto max-w-page px-5 pb-12 pt-20 sm:px-6 sm:pt-24">
         <div className="grid grid-cols-12 gap-x-0 gap-y-8 sm:gap-x-8 lg:gap-x-10">
           <div className="col-span-12 lg:col-span-4">
-            <div className="relative h-7 w-[88px]">
-              <Image
-                src="/tren.jpg"
-                alt="tren."
-                fill
-                sizes="88px"
-                className="object-contain object-left"
-              />
+            <div
+              aria-label="tren."
+              className="select-none text-[32px] font-light leading-none text-white"
+            >
+              tren.
             </div>
             <p className="mt-6 max-w-xs text-sm text-ink-200 leading-relaxed">
               A Minecraft utility page with restrained copy, current modules,
@@ -67,15 +63,12 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-16 select-none">
-          <div className="relative h-[14vw] min-h-[80px] w-full">
-            <Image
-              src="/tren.jpg"
-              alt=""
-              fill
-              sizes="100vw"
-              className="object-contain object-left opacity-[0.06]"
-            />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none mt-16 select-none overflow-hidden"
+        >
+          <div className="text-[96px] font-light leading-[0.75] text-white opacity-[0.06] sm:text-[140px] md:text-[190px] lg:text-[250px] xl:text-[300px]">
+            tren.
           </div>
         </div>
       </div>
