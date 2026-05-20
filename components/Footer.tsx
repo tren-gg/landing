@@ -2,17 +2,17 @@ import Image from "next/image";
 import Link from "next/link";
 
 const COLS: Array<[string, Array<[string, string]>]> = [
-  ["Product", [["Modules", "#features"], ["Blink", "#blink"], ["Performance", "#performance"], ["Loader", "#injection"]]],
-  ["Compatibility", [["Mappings", "#compatibility"], ["Roadmap", "#roadmap"]]],
-  ["Resources", [["Feature list", "#more"], ["Changelog", "#changelog"], ["Status", "#status"]]],
-  ["Account", [["Login", "#account"], ["Settings", "#configs"], ["Support", "#support"]]],
+  ["Product", [["Modules", "/#features"], ["Blink", "/#blink"], ["Performance", "/#performance"], ["Loader", "/#injection"]]],
+  ["Compatibility", [["Mappings", "/#compatibility"], ["Roadmap", "/#roadmap"]]],
+  ["Resources", [["Feature list", "/#more"], ["Changelog", "/#changelog"], ["Status", "/#status"]]],
+  ["Account", [["Login", "/account"], ["Settings", "/#configs"], ["Support", "/#support"]]],
 ];
 
 export default function Footer() {
   return (
     <footer className="bg-ink-950 text-white">
-      <div className="mx-auto max-w-page px-6 pt-24 pb-12">
-        <div className="grid grid-cols-12 gap-10">
+      <div className="mx-auto max-w-page px-5 pb-12 pt-20 sm:px-6 sm:pt-24">
+        <div className="grid grid-cols-12 gap-x-0 gap-y-8 sm:gap-x-8 lg:gap-x-10">
           <div className="col-span-12 lg:col-span-4">
             <div className="relative h-7 w-[88px]">
               <Image
@@ -33,7 +33,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="col-span-12 lg:col-span-8 grid grid-cols-2 gap-8 md:grid-cols-4">
+          <div className="col-span-12 grid grid-cols-2 gap-8 lg:col-span-8 md:grid-cols-4">
             {COLS.map(([title, links]) => (
               <div key={title}>
                 <div className="text-[10px] uppercase tracking-[0.28em] text-ink-300">
@@ -56,11 +56,11 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-16 flex flex-col items-start justify-between gap-4 pt-6 md:flex-row md:items-center">
+        <div className="mt-14 flex flex-col items-start justify-between gap-4 pt-6 md:mt-16 md:flex-row md:items-center">
           <div className="text-[11px] uppercase tracking-[0.22em] text-ink-300">
             (c) {new Date().getFullYear()} Tren. Built for players.
           </div>
-          <div className="flex items-center gap-6 text-[11px] uppercase tracking-[0.22em] text-ink-300">
+          <div className="flex flex-wrap items-center gap-x-6 gap-y-3 text-[11px] uppercase tracking-[0.22em] text-ink-300">
             <Link href="#terms" className="hover:text-white">Terms</Link>
             <Link href="#privacy" className="hover:text-white">Privacy</Link>
             <Link href="#contact" className="hover:text-white">Contact</Link>

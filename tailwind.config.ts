@@ -28,7 +28,7 @@ const config: Config = {
         },
       },
       letterSpacing: {
-        tightest: "-0.045em",
+        tightest: "0",
       },
       maxWidth: {
         page: "1280px",

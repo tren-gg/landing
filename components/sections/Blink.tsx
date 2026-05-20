@@ -26,13 +26,13 @@ export default function Blink() {
         lede="Hold your position in place for other players, move freely, then release. They see you teleport instantly to wherever you ended up."
       />
 
-      <ul className="mt-16 grid grid-cols-1 gap-px border border-black/10 bg-black/10 md:grid-cols-2">
+      <ul className="mt-10 grid grid-cols-1 gap-px border border-black/10 bg-black/10 sm:mt-12 md:mt-16 md:grid-cols-2">
         {MODES.map((mode) => (
-          <li key={mode.name} className="bg-white p-7">
-            <h3 className="text-3xl font-medium tracking-tightest">
+          <li key={mode.name} className="bg-white p-5 sm:p-7">
+            <h3 className="text-2xl font-medium tracking-tightest sm:text-3xl">
               {mode.name}
             </h3>
-            <p className="mt-4 leading-relaxed text-ink-500">{mode.desc}</p>
+            <p className="mt-3 text-sm leading-relaxed text-ink-500 sm:mt-4 sm:text-base">{mode.desc}</p>
           </li>
         ))}
       </ul>

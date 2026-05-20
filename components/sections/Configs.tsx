@@ -12,7 +12,7 @@ const SAVED = [
 export default function Configs() {
   return (
     <Section id="configs" tone="dark">
-      <div className="grid grid-cols-12 gap-10">
+      <div className="grid grid-cols-12 gap-x-0 gap-y-10 sm:gap-x-8 lg:gap-x-10">
         <div className="col-span-12 lg:col-span-5">
           <SectionHeader
             tone="dark"
@@ -30,7 +30,7 @@ export default function Configs() {
         <div className="col-span-12 lg:col-span-7">
           <ul className="grid grid-cols-1 gap-px border border-white/10 bg-white/10 sm:grid-cols-2">
             {SAVED.map((item) => (
-              <li key={item} className="bg-ink-950 p-6 text-xl font-medium">
+              <li key={item} className="bg-ink-950 p-5 text-lg font-medium sm:p-6 sm:text-xl">
                 {item}
               </li>
             ))}

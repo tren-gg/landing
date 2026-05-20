@@ -22,7 +22,7 @@ const FEATURES = [
 export default function Combat() {
   return (
     <Section id="features" tone="light">
-      <div className="grid grid-cols-12 gap-10">
+      <div className="grid grid-cols-12 gap-x-0 gap-y-10 sm:gap-x-8 lg:gap-x-10">
         <div className="col-span-12 lg:col-span-5">
           <SectionHeader
             tone="light"
@@ -40,11 +40,11 @@ export default function Combat() {
         <div className="col-span-12 lg:col-span-7">
           <ul className="grid grid-cols-1 gap-px border border-black/10 bg-black/10 md:grid-cols-2">
             {FEATURES.map((feature) => (
-              <li key={feature.name} className="bg-white p-7">
-                <h3 className="text-2xl font-medium tracking-tightest text-ink-950">
+              <li key={feature.name} className="bg-white p-5 sm:p-7">
+                <h3 className="text-xl font-medium tracking-tightest text-ink-950 sm:text-2xl">
                   {feature.name}
                 </h3>
-                <p className="mt-4 leading-relaxed text-ink-500">
+                <p className="mt-3 text-sm leading-relaxed text-ink-500 sm:mt-4 sm:text-base">
                   {feature.copy}
                 </p>
               </li>

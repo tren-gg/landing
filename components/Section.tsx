@@ -30,11 +30,11 @@ export function Section({
           : isDark
           ? "bg-ink-950 text-white"
           : "bg-white text-ink-950",
-        bleed ? "" : "py-28 md:py-36",
+        bleed ? "" : "py-20 sm:py-24 md:py-32 lg:py-36",
         className,
       ].join(" ")}
     >
-      <div className="relative mx-auto max-w-page px-6">{children}</div>
+      <div className="relative mx-auto max-w-page px-5 sm:px-6">{children}</div>
     </section>
   );
 }
@@ -58,13 +58,13 @@ export function SectionHeader({
         align === "center" ? "mx-auto text-center" : "",
       ].join(" ")}
     >
-      <h2 className="text-4xl font-medium tracking-tightest md:text-6xl">
+      <h2 className="text-3xl font-medium tracking-tightest sm:text-4xl md:text-6xl">
         {title}
       </h2>
       {lede ? (
         <p
           className={[
-            "mt-6 text-base md:text-lg leading-relaxed",
+            "mt-5 text-base leading-relaxed md:mt-6 md:text-lg",
             isDark ? "text-ink-200" : "text-ink-500",
           ].join(" ")}
         >
@@ -87,7 +87,7 @@ export function Stat({
   const isDark = tone === "dark";
   return (
     <div className="flex flex-col gap-2">
-      <div className="text-4xl font-medium tracking-tightest md:text-5xl">
+      <div className="text-3xl font-medium tracking-tightest md:text-5xl">
         {value}
       </div>
       <div

@@ -6,23 +6,23 @@ import SyringeMark from "./SyringeMark";
 export default function CTA() {
   return (
     <Section id="download" tone="light">
-      <div className="relative grid grid-cols-12 items-center gap-10">
+      <div className="relative grid grid-cols-12 items-center gap-x-0 gap-y-10 sm:gap-x-8 lg:gap-x-10">
         <div className="col-span-12 lg:col-span-8">
-          <h2 className="text-5xl font-medium leading-[0.95] tracking-tightest md:text-7xl">
+          <h2 className="text-4xl font-medium leading-[0.95] tracking-tightest sm:text-5xl md:text-7xl">
             Try the
             <br />
             local build.
           </h2>
-          <p className="mt-6 max-w-xl text-lg text-ink-500">
+          <p className="mt-5 max-w-xl text-base leading-relaxed text-ink-500 sm:mt-6 sm:text-lg">
             The current build is focused on Windows. Account access stays
             available from the navigation.
           </p>
 
-          <div className="mt-10 flex flex-wrap items-center gap-3">
+          <div className="mt-8 flex flex-col gap-3 sm:mt-10 sm:flex-row sm:flex-wrap sm:items-center">
             <SubscribeButton />
             <Link
               href="#docs"
-              className="inline-flex h-12 items-center gap-3 text-[14px] text-ink-500 underline-offset-4 transition-colors hover:text-ink-950 hover:underline"
+              className="inline-flex h-12 w-full items-center justify-center gap-3 text-[14px] text-ink-500 underline-offset-4 transition-colors hover:text-ink-950 hover:underline sm:w-auto sm:justify-start"
             >
               Read the feature list
             </Link>
@@ -30,8 +30,8 @@ export default function CTA() {
         </div>
 
         <div className="col-span-12 lg:col-span-4">
-          <div className="relative mx-auto flex h-72 w-72 items-center justify-center">
-            <SyringeMark className="h-64 w-64 text-ink-950" />
+          <div className="relative mx-auto flex h-48 w-48 items-center justify-center sm:h-72 sm:w-72">
+            <SyringeMark className="h-44 w-44 text-ink-950 sm:h-64 sm:w-64" />
           </div>
         </div>
       </div>

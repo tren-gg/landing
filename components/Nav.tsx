@@ -57,6 +57,21 @@ export default function Nav() {
           </Link>
         </div>
       </div>
+
+      <nav
+        aria-label="Mobile sections"
+        className="mx-auto flex max-w-page gap-5 overflow-x-auto border-t border-white/10 px-6 py-3 text-[12px] text-ink-200 md:hidden"
+      >
+        {NAV_LINKS.map((l) => (
+          <Link
+            key={l.href}
+            href={l.href}
+            className="shrink-0 transition-colors hover:text-white"
+          >
+            {l.label}
+          </Link>
+        ))}
+      </nav>
     </header>
   );
 }

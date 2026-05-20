@@ -46,12 +46,12 @@ export default function SubscribeButton() {
   }
 
   return (
-    <div className="flex flex-col items-start gap-3">
+    <div className="flex w-full flex-col items-start gap-3 sm:w-auto">
       <button
         type="button"
         onClick={startCheckout}
         disabled={state === "loading"}
-        className="inline-flex h-12 items-center gap-3 bg-ink-950 px-6 text-[14px] font-medium text-white transition-colors hover:bg-ink-800 disabled:cursor-wait disabled:bg-ink-500"
+        className="inline-flex h-12 w-full items-center justify-center gap-3 bg-ink-950 px-6 text-[14px] font-medium text-white transition-colors hover:bg-ink-800 disabled:cursor-wait disabled:bg-ink-500 sm:w-auto"
       >
         {state === "loading" ? "Opening checkout..." : "Start monthly access"}
       </button>

@@ -50,20 +50,20 @@ export default function FeatureGrid() {
         lede="Additional controls that are currently part of Tren."
       />
 
-      <ul className="mt-16 grid grid-cols-12 gap-px bg-white/10 border border-white/10">
+      <ul className="mt-10 grid grid-cols-12 gap-px border border-white/10 bg-white/10 sm:mt-12 md:mt-16">
         {ITEMS.map((it, i) => (
           <li
             key={it.name}
-            className="col-span-12 sm:col-span-6 lg:col-span-4 bg-ink-950 p-7"
+            className="col-span-12 bg-ink-950 p-5 sm:col-span-6 sm:p-6 lg:col-span-4 lg:p-7"
           >
             <div className="flex items-center justify-between text-[10px] uppercase tracking-[0.22em] text-ink-400">
               <span>{String(i + 1).padStart(2, "0")}</span>
               <span>feature</span>
             </div>
-            <h3 className="mt-4 text-2xl font-medium tracking-tightest">
+            <h3 className="mt-4 text-xl font-medium tracking-tightest sm:text-2xl">
               {it.name}
             </h3>
-            <p className="mt-3 text-ink-200 leading-relaxed">{it.copy}</p>
+            <p className="mt-3 text-sm leading-relaxed text-ink-200 sm:text-base">{it.copy}</p>
           </li>
         ))}
       </ul>

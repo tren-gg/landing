@@ -18,7 +18,7 @@ const VISUALS = [
 export default function Visuals() {
   return (
     <Section id="visuals" tone="dark" plain>
-      <div className="grid grid-cols-12 gap-10">
+      <div className="grid grid-cols-12 gap-x-0 gap-y-10 sm:gap-x-8 lg:gap-x-10">
         <div className="col-span-12 lg:col-span-5">
           <SectionHeader
             tone="dark"
@@ -38,12 +38,12 @@ export default function Visuals() {
             {VISUALS.map((item) => (
               <li
                 key={item.name}
-                className="grid grid-cols-12 gap-6 py-7"
+                className="grid grid-cols-12 gap-3 py-6 sm:gap-6 sm:py-7"
               >
-                <h3 className="col-span-12 text-2xl font-medium tracking-tightest text-white sm:col-span-4">
+                <h3 className="col-span-12 text-xl font-medium tracking-tightest text-white sm:col-span-4 sm:text-2xl">
                   {item.name}
                 </h3>
-                <p className="col-span-12 leading-relaxed text-ink-200 sm:col-span-8">
+                <p className="col-span-12 text-sm leading-relaxed text-ink-200 sm:col-span-8 sm:text-base">
                   {item.copy}
                 </p>
               </li>
