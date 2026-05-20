@@ -4,7 +4,7 @@ import { portalSignInUrl, portalUrl } from "@/lib/portal";
 const COLS: Array<[string, Array<[string, string]>]> = [
   ["Product", [["Modules", "/#features"], ["Blink", "/#blink"], ["Performance", "/#performance"], ["Loader", "/#injection"]]],
   ["Compatibility", [["Mappings", "/#compatibility"], ["Roadmap", "/#roadmap"]]],
-  ["Resources", [["Feature list", "/#more"], ["Legal TL;DR", "/tldr"], ["Changelog", "/#changelog"], ["Status", "/#status"]]],
+  ["Resources", [["Feature list", "/#more"], ["Legal TL;DR", "/tldr"], ["Changelog", "/#changelog"], ["Status", "https://tren.statuspage.io/"]]],
   ["Legal", [["Terms", "/terms"], ["Privacy", "/privacy"], ["TL;DR", "/tldr"]]],
   ["Account", [["Login", portalSignInUrl()], ["Settings", portalUrl("/account")], ["Support", "/#support"]]],
 ];
