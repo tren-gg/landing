@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { portalSignInUrl, portalUrl } from "@/lib/portal";
 
 const NAV_LINKS = [
   { href: "/#features", label: "Features" },
@@ -39,13 +40,13 @@ export default function Nav() {
 
         <div className="flex items-center gap-2">
           <Link
-            href="/account"
+            href={portalSignInUrl()}
             className="hidden text-[13px] text-ink-200 transition-colors hover:text-white sm:inline"
           >
             login
           </Link>
           <Link
-            href="/account"
+            href={portalUrl()}
             className="inline-flex h-9 items-center gap-2 border border-white/15 bg-white px-4 text-[13px] font-medium text-ink-950 transition-colors hover:bg-ink-100"
           >
             account

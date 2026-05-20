@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { portalSignInUrl } from "@/lib/portal";
 import SyringeMark from "./SyringeMark";
 
 export default function Hero() {
@@ -17,7 +18,7 @@ export default function Hero() {
 
           <div className="mt-8 flex flex-col gap-3 sm:mt-10 sm:flex-row sm:flex-wrap sm:items-center">
             <Link
-              href="#download"
+              href={portalSignInUrl("/download")}
               className="inline-flex h-12 w-full items-center justify-center bg-white px-6 text-[14px] font-medium text-ink-950 transition-colors hover:bg-ink-100 sm:w-auto"
             >
               Download Tren

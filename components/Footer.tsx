@@ -1,10 +1,11 @@
 import Link from "next/link";
+import { portalSignInUrl, portalUrl } from "@/lib/portal";
 
 const COLS: Array<[string, Array<[string, string]>]> = [
   ["Product", [["Modules", "/#features"], ["Blink", "/#blink"], ["Performance", "/#performance"], ["Loader", "/#injection"]]],
   ["Compatibility", [["Mappings", "/#compatibility"], ["Roadmap", "/#roadmap"]]],
   ["Resources", [["Feature list", "/#more"], ["Changelog", "/#changelog"], ["Status", "/#status"]]],
-  ["Account", [["Login", "/account"], ["Settings", "/#configs"], ["Support", "/#support"]]],
+  ["Account", [["Login", portalSignInUrl()], ["Settings", portalUrl("/account")], ["Support", "/#support"]]],
 ];
 
 export default function Footer() {

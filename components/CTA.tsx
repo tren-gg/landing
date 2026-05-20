@@ -14,8 +14,8 @@ export default function CTA() {
             local build.
           </h2>
           <p className="mt-5 max-w-xl text-base leading-relaxed text-ink-500 sm:mt-6 sm:text-lg">
-            The current build is focused on Windows. Account access stays
-            available from the navigation.
+            Create an account in the portal first. The Windows loader and
+            subscription flow use that same signed-in account.
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:mt-10 sm:flex-row sm:flex-wrap sm:items-center">
