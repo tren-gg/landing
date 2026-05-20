@@ -7,7 +7,6 @@ const NAV_LINKS = [
   { href: "/#performance", label: "Performance" },
   { href: "/#configs", label: "Configs" },
   { href: "/#compatibility", label: "Compatibility" },
-  { href: "/tldr", label: "Legal" },
 ];
 
 export default function Nav() {

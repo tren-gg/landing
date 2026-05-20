@@ -174,14 +174,6 @@ function renderInline(text: string, tone: "light" | "dark" = "light"): ReactNode
       );
     }
 
-    if (part === "legal@tren.gg") {
-      return (
-        <a key={index} href="mailto:legal@tren.gg" className={linkClass}>
-          legal@tren.gg
-        </a>
-      );
-    }
-
     if (part === "portal.tren.gg") {
       return (
         <a key={index} href="https://portal.tren.gg" className={linkClass}>

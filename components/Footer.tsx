@@ -4,9 +4,9 @@ import { portalSignInUrl, portalUrl } from "@/lib/portal";
 const COLS: Array<[string, Array<[string, string]>]> = [
   ["Product", [["Modules", "/#features"], ["Blink", "/#blink"], ["Performance", "/#performance"], ["Loader", "/#injection"]]],
   ["Compatibility", [["Mappings", "/#compatibility"], ["Roadmap", "/#roadmap"]]],
-  ["Resources", [["Feature list", "/#more"], ["Legal TL;DR", "/tldr"], ["Changelog", "/#changelog"], ["Status", "https://tren.statuspage.io/"]]],
-  ["Legal", [["Terms", "/terms"], ["Privacy", "/privacy"], ["TL;DR", "/tldr"]]],
-  ["Account", [["Login", portalSignInUrl()], ["Settings", portalUrl("/account")], ["Support", "/#support"]]],
+  ["Resources", [["Feature list", "/#more"], ["Changelog", "/#changelog"], ["Status", "https://tren.statuspage.io/"]]],
+  ["Legal", [["Terms", "/terms"], ["Privacy", "/privacy"], ["TL;DR", "/tldr"], ["Support", "/contact"]]],
+  ["Account", [["Login", portalSignInUrl()], ["Settings", portalUrl("/account")], ["Support", "/contact"]]],
 ];
 
 export default function Footer() {
@@ -62,7 +62,7 @@ export default function Footer() {
             <Link href="/terms" className="hover:text-white">Terms</Link>
             <Link href="/privacy" className="hover:text-white">Privacy</Link>
             <Link href="/tldr" className="hover:text-white">TL;DR</Link>
-            <Link href="mailto:legal@tren.gg" className="hover:text-white">Contact</Link>
+            <Link href="/contact" className="hover:text-white">Contact</Link>
           </div>
         </div>
 
