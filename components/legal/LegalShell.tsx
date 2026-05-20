@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { ReactNode } from "react";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import { LegalBlocks, type LegalDocument } from "./LegalMarkdown";
 
 type LegalShellProps = {
@@ -11,6 +12,8 @@ type LegalShellProps = {
   lede: string;
   meta: Array<[string, string]>;
   calloutCopy: string;
+  breadcrumbLabel: string;
+  breadcrumbHref: string;
 };
 
 export default function LegalShell({
@@ -20,9 +23,12 @@ export default function LegalShell({
   lede,
   meta,
   calloutCopy,
+  breadcrumbLabel,
+  breadcrumbHref,
 }: LegalShellProps) {
   return (
     <main className="min-h-screen bg-white text-ink-950">
+      <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: breadcrumbLabel, href: breadcrumbHref }]} />
       <Nav />
       <section className="border-b border-white/10 bg-ink-950 text-white">
         <div className="mx-auto max-w-page px-5 pb-16 pt-20 sm:px-6 md:pb-24 md:pt-32">
