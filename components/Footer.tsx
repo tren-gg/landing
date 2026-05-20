@@ -4,7 +4,8 @@ import { portalSignInUrl, portalUrl } from "@/lib/portal";
 const COLS: Array<[string, Array<[string, string]>]> = [
   ["Product", [["Modules", "/#features"], ["Blink", "/#blink"], ["Performance", "/#performance"], ["Loader", "/#injection"]]],
   ["Compatibility", [["Mappings", "/#compatibility"], ["Roadmap", "/#roadmap"]]],
-  ["Resources", [["Feature list", "/#more"], ["Changelog", "/#changelog"], ["Status", "/#status"]]],
+  ["Resources", [["Feature list", "/#more"], ["Legal TL;DR", "/tldr"], ["Changelog", "/#changelog"], ["Status", "/#status"]]],
+  ["Legal", [["Terms", "/terms"], ["Privacy", "/privacy"], ["TL;DR", "/tldr"]]],
   ["Account", [["Login", portalSignInUrl()], ["Settings", portalUrl("/account")], ["Support", "/#support"]]],
 ];
 
@@ -30,7 +31,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="col-span-12 grid grid-cols-2 gap-8 lg:col-span-8 md:grid-cols-4">
+          <div className="col-span-12 grid grid-cols-2 gap-8 md:grid-cols-3 lg:col-span-8 xl:grid-cols-5">
             {COLS.map(([title, links]) => (
               <div key={title}>
                 <div className="text-[10px] uppercase tracking-[0.28em] text-ink-300">
@@ -58,9 +59,10 @@ export default function Footer() {
             (c) {new Date().getFullYear()} Tren. Built for players.
           </div>
           <div className="flex flex-wrap items-center gap-x-6 gap-y-3 text-[11px] uppercase tracking-[0.22em] text-ink-300">
-            <Link href="#terms" className="hover:text-white">Terms</Link>
-            <Link href="#privacy" className="hover:text-white">Privacy</Link>
-            <Link href="#contact" className="hover:text-white">Contact</Link>
+            <Link href="/terms" className="hover:text-white">Terms</Link>
+            <Link href="/privacy" className="hover:text-white">Privacy</Link>
+            <Link href="/tldr" className="hover:text-white">TL;DR</Link>
+            <Link href="mailto:legal@tren.gg" className="hover:text-white">Contact</Link>
           </div>
         </div>
 
