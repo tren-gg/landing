@@ -5,10 +5,19 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import SyringeMark from "@/components/SyringeMark";
 import RevealAddress from "@/components/contact/RevealAddress";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Support & Contact - Tren",
-  description: "Support lanes, FAQ, response windows, and contact details for Tren.",
+  title: "Support & Contact",
+  description:
+    "Get help with Tren subscriptions, billing, privacy requests, account access, and security disclosures. FAQ, support lanes, and response windows.",
+  alternates: { canonical: "https://tren.gg/contact" },
+  openGraph: {
+    title: "Support & Contact - Tren",
+    description:
+      "Get help with Tren subscriptions, billing, privacy requests, account access, and security disclosures.",
+    url: "https://tren.gg/contact",
+  },
 };
 
 const FAQS = [
@@ -68,6 +77,7 @@ const LANES = [
 export default function ContactPage() {
   return (
     <main className="min-h-screen bg-white text-ink-950">
+      <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Support & Contact", href: "/contact" }]} />
       <Nav />
 
       <section className="relative isolate overflow-hidden border-b border-white/10 bg-ink-950 text-white">

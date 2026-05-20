@@ -3,8 +3,16 @@ import LegalShell from "@/components/legal/LegalShell";
 import { loadLegalDocument } from "@/components/legal/LegalMarkdown";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy - Tren",
-  description: "How Tren collects, processes, stores, and protects data for the client, portal, and service.",
+  title: "Privacy Policy",
+  description:
+    "How Tren collects, processes, stores, and protects your data across the desktop client, account portal, and service. US-based hosting with named sub-processors.",
+  alternates: { canonical: "https://tren.gg/privacy" },
+  openGraph: {
+    title: "Privacy Policy - Tren",
+    description:
+      "How Tren collects, processes, stores, and protects your data across the desktop client, account portal, and service.",
+    url: "https://tren.gg/privacy",
+  },
 };
 
 export default function PrivacyPage() {
@@ -29,6 +37,8 @@ export default function PrivacyPage() {
         ["reading time", "~14 min"],
       ]}
       calloutCopy="Same data practices, distilled. The full policy below is the one that governs in any conflict."
+      breadcrumbLabel="Privacy Policy"
+      breadcrumbHref="/privacy"
     />
   );
 }

@@ -3,8 +3,16 @@ import LegalShell from "@/components/legal/LegalShell";
 import { loadLegalDocument } from "@/components/legal/LegalMarkdown";
 
 export const metadata: Metadata = {
-  title: "Terms of Service - Tren",
-  description: "The terms that govern the Tren client, portal, subscriptions, accounts, and related services.",
+  title: "Terms of Service",
+  description:
+    "Binding terms governing the Tren desktop client, account portal at portal.tren.gg, subscriptions, seat management, and dispute resolution.",
+  alternates: { canonical: "https://tren.gg/terms" },
+  openGraph: {
+    title: "Terms of Service - Tren",
+    description:
+      "Binding terms governing the Tren desktop client, account portal, subscriptions, seat management, and dispute resolution.",
+    url: "https://tren.gg/terms",
+  },
 };
 
 export default function TermsPage() {
@@ -31,6 +39,8 @@ export default function TermsPage() {
         ["reading time", "~12 min"],
       ]}
       calloutCopy="A plain-language summary of these Terms and our Privacy Policy. For convenience only, this full document controls in any conflict."
+      breadcrumbLabel="Terms of Service"
+      breadcrumbHref="/terms"
     />
   );
 }

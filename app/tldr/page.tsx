@@ -4,10 +4,19 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import SyringeMark from "@/components/SyringeMark";
 import { LegalBlocks, loadLegalDocument } from "@/components/legal/LegalMarkdown";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "TL;DR - Tren Legal",
-  description: "A plain-language summary of Tren's Terms of Service and Privacy Policy.",
+  title: "TL;DR - Legal Summary",
+  description:
+    "A plain-language summary of Tren's Terms of Service and Privacy Policy. Quick reference for subscriptions, data handling, liability, and user rights.",
+  alternates: { canonical: "https://tren.gg/tldr" },
+  openGraph: {
+    title: "TL;DR - Tren Legal Summary",
+    description:
+      "A plain-language summary of Tren's Terms of Service and Privacy Policy.",
+    url: "https://tren.gg/tldr",
+  },
 };
 
 const DARK_TOPICS = new Set(["Service Providers", "Prohibited Conduct", "Use on Third-Party Platforms"]);
@@ -17,6 +26,7 @@ export default function TldrPage() {
 
   return (
     <main className="min-h-screen bg-white text-ink-950">
+      <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "TL;DR - Legal Summary", href: "/tldr" }]} />
       <Nav />
       <section className="relative isolate overflow-hidden border-b border-white/10 bg-ink-950 text-white">
         <SyringeMark className="pointer-events-none absolute bottom-[-64px] right-[-72px] hidden h-[420px] w-[420px] text-white opacity-[0.07] lg:block" />
