@@ -4,7 +4,7 @@ import SyringeMark from "../SyringeMark";
 const STEPS = [
   "Find the running game",
   "Prepare the loader",
-  "Attach through Java Native Interface",
+  "Load local components",
   "Apply saved settings",
   "Open the Tren UI",
 ];
@@ -20,7 +20,7 @@ export default function Injection() {
               <>
                 A sleek
                 <br />
-                C++ loader.
+                local loader.
               </>
             }
             lede="The loader keeps startup secure, simple, and focused."

@@ -11,9 +11,9 @@ export default function Hero() {
             Inject tren.
           </h1>
           <p className="mt-6 max-w-xl text-base leading-relaxed text-ink-200 sm:text-lg md:mt-8 md:text-xl">
-            Tren is a sleek C++ Minecraft utility with secure configs, clean
-            combat controls, visuals, Blink, and a loader that stays out of the
-            way.
+            Tren is a sleek Minecraft utility with secure configs, clean
+            utility modules, overlays, sync controls, and a loader that stays
+            out of the way.
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:mt-10 sm:flex-row sm:flex-wrap sm:items-center">

@@ -2,11 +2,11 @@ import { Section, SectionHeader } from "../Section";
 
 const VISUALS = [
   {
-    name: "Player ESP",
-    copy: "Boxes, names, and health display options for player visibility.",
+    name: "Entity Overlay",
+    copy: "Boxes, names, and status display options for selected entities.",
   },
   {
-    name: "Block ESP",
+    name: "Block Overlay",
     copy: "Block list and radius controls for highlighting selected blocks.",
   },
   {
@@ -29,7 +29,7 @@ export default function Visuals() {
                 no extra noise.
               </>
             }
-            lede="Visual settings stay direct: player ESP, Block ESP, and Array List."
+            lede="Visual settings stay direct: entity overlays, block overlays, and Array List."
           />
         </div>
 

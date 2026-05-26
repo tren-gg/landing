@@ -2,20 +2,20 @@ import { Section, SectionHeader } from "../Section";
 
 const FEATURES = [
   {
-    name: "Aim Assist",
-    copy: "Range, field of view, horizontal speed, vertical speed, and center or multipoint targeting.",
+    name: "Input Assist",
+    copy: "Range, field of view, horizontal speed, vertical speed, and targeting preference controls.",
   },
   {
-    name: "Reach",
-    copy: "Configurable reach with hitbox adjustment, combo behavior, ground checks, weapon checks, and liquid checks.",
+    name: "Interaction Range",
+    copy: "Configurable interaction distance with contextual movement, equipment, and environment checks.",
   },
   {
-    name: "Clickers",
-    copy: "Left and right click modules with keybinds, average CPS controls, weapon checks, and inventory options.",
+    name: "Click Timing",
+    copy: "Left and right input modules with keybinds, average rate controls, equipment checks, and inventory options.",
   },
   {
-    name: "Velocity",
-    copy: "Horizontal and vertical knockback settings with chance, delay, air only, moving only, and weapon only checks.",
+    name: "Movement Response",
+    copy: "Horizontal and vertical response settings with chance, delay, movement, and equipment checks.",
   },
 ];
 
@@ -28,12 +28,12 @@ export default function Combat() {
             tone="light"
             title={
               <>
-                Combat that
+                Utility modules
                 <br />
                 stays readable.
               </>
             }
-            lede="The combat page focuses on the settings people actually adjust."
+            lede="The modules page focuses on the settings people actually adjust."
           />
         </div>
 

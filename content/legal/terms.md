@@ -30,7 +30,7 @@ If you wish to release a seat in order to authorize a different computer, the re
 
 ## 5. Acceptable Use; Server and Client Compliance
 
-You are solely responsible for ensuring that your use of the Client complies with the terms, rules, and policies of any Minecraft client, server, network, or platform on which you choose to run it. We do not endorse, encourage, or facilitate the violation of any third-party terms, and we are not responsible for any consequences arising from your use of the Client on systems where its use is prohibited, including account bans, suspensions, or other enforcement actions taken by any third party.
+You are solely responsible for ensuring that your use of the Client complies with the terms, rules, and policies of any Minecraft client, server, network, or platform on which you choose to run it. We do not endorse, encourage, or facilitate the violation of any third-party terms, and we are not responsible for any consequences arising from your use of the Client on systems where its use is prohibited, including account restrictions, suspensions, or other enforcement actions taken by any third party.
 
 You must not:
 
@@ -60,7 +60,7 @@ The Service is offered solely on a recurring subscription basis. By subscribing,
 
 ## 8. Refunds
 
-All sales are final, subject to the following limited exception. We will consider a refund request on a case-by-case basis only if (i) the request is submitted to [Support](/contact#reveal) within 24 to 48 hours of the original charge, and (ii) the Service is materially non-functional through no fault of yours. We do not issue refunds for user error, change of mind, dissatisfaction with features, account termination for cause, third-party enforcement actions (including bans on any Minecraft server or platform), or any other reason not described above.
+All sales are final, subject to the following limited exception. We will consider a refund request on a case-by-case basis only if (i) the request is submitted to [Support](/contact#reveal) within 24 to 48 hours of the original charge, and (ii) the Service is materially non-functional through no fault of yours. We do not issue refunds for user error, change of mind, dissatisfaction with features, account termination for cause, third-party enforcement actions, or any other reason not described above.
 
 ## 9. Chargebacks
 

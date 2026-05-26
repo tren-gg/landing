@@ -3,11 +3,11 @@ import { Section, SectionHeader } from "../Section";
 const MODES = [
   {
     name: "Outgoing Only",
-    desc: "Your packets stop leaving while incoming ones keep arriving. Other players see you frozen in place. You can move freely and see everything happening around you, then release and teleport to your new position from their perspective.",
+    desc: "Temporarily pauses outbound session updates while incoming updates continue. Release when you want your current state to sync.",
   },
   {
     name: "Incoming and Outgoing",
-    desc: "All packets are held in both directions. The world freezes for you too. When you release, your position updates and the world catches up at once. Useful when you want full control over exactly what state gets synced.",
+    desc: "Temporarily pauses both inbound and outbound session updates. Release when you want the session to reconcile everything at once.",
   },
 ];
 
@@ -23,7 +23,7 @@ export default function Blink() {
             Blink holds.
           </>
         }
-        lede="Hold your position in place for other players, move freely, then release. They see you teleport instantly to wherever you ended up."
+        lede="Blink gives you a simple way to manage when local session state is held and released."
       />
 
       <ul className="mt-10 grid grid-cols-1 gap-px border border-black/10 bg-black/10 sm:mt-12 md:mt-16 md:grid-cols-2">

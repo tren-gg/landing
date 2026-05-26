@@ -14,7 +14,7 @@ export default function CTA() {
             local build.
           </h2>
           <p className="mt-5 max-w-xl text-base leading-relaxed text-ink-500 sm:mt-6 sm:text-lg">
-            Create an account in the portal first. The Windows loader and
+            Create an account in the portal first. The Windows app and
             subscription flow use that same signed-in account.
           </p>
 

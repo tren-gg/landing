@@ -11,18 +11,18 @@ const ITEMS = [
   },
   {
     name: "Bridge Assist",
-    copy: "A focused utility around right click bridge behavior.",
+    copy: "A focused utility around right-click placement behavior.",
   },
   {
-    name: "Throw Pearl",
-    copy: "Switch and throw delay controls for pearl use.",
+    name: "Item Timing",
+    copy: "Switch and use-delay controls for selected items.",
   },
   {
-    name: "Throw Pots",
-    copy: "One, double, and smart modes with separate switch and throw delays.",
+    name: "Consumable Timing",
+    copy: "One, double, and smart modes with separate switch and use delays.",
   },
   {
-    name: "Block ESP",
+    name: "Block Overlay",
     copy: "Radius and block list settings for block highlighting.",
   },
   {

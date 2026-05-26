@@ -21,10 +21,6 @@ export default function Footer() {
             >
               tren.
             </div>
-            <p className="mt-6 max-w-xs text-sm text-ink-200 leading-relaxed">
-              A Minecraft utility page with restrained copy, current modules,
-              and clear compatibility notes.
-            </p>
             <div className="mt-8 flex items-center gap-3 text-[11px] uppercase tracking-[0.22em] text-ink-300">
               <span className="block h-1.5 w-1.5 bg-white" />
               <span>Local build focused</span>

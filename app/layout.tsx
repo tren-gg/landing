@@ -5,11 +5,11 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://tren.gg"),
   title: {
-    default: "Tren - C++ Minecraft Utility | Combat, Visuals, Blink & Configs",
+    default: "Tren - Minecraft Utility Modules, Overlays & Configs",
     template: "%s | Tren",
   },
   description:
-    "Tren is a high-performance C++ Minecraft utility featuring aim assist, reach, clickers, velocity, visual enhancements, Blink packet modes, and secure saved configs.",
+    "Tren is a high-performance Minecraft utility with configurable modules, clean overlays, sync controls, and secure saved configs.",
   applicationName: "Tren",
   authors: [{ name: "Tren" }],
   creator: "Tren",
@@ -20,22 +20,21 @@ export const metadata: Metadata = {
     "minecraft client",
     "minecraft mod",
     "C++ minecraft utility",
-    "minecraft aim assist",
-    "minecraft reach",
-    "minecraft clicker",
-    "minecraft velocity",
-    "blink packet mode",
-    "minecraft visuals",
+    "minecraft utility modules",
+    "minecraft input modules",
+    "minecraft overlay modules",
+    "minecraft sync controls",
+    "minecraft overlays",
     "minecraft configs",
-    "minecraft combat client",
-    "minecraft pvp utility",
+    "minecraft desktop utility",
+    "minecraft pvp modules",
     "tren client",
     "tren minecraft",
   ],
   openGraph: {
-    title: "Tren - C++ Minecraft Utility",
+    title: "Tren - Minecraft Utility Modules",
     description:
-      "A high-performance C++ Minecraft utility with combat controls, visuals, Blink packet modes, and secure saved configs.",
+      "A high-performance Minecraft utility with configurable modules, clean overlays, sync controls, and secure saved configs.",
     url: "https://tren.gg",
     siteName: "Tren",
     locale: "en_US",
@@ -43,9 +42,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Tren - C++ Minecraft Utility",
+    title: "Tren - Minecraft Utility Modules",
     description:
-      "A high-performance C++ Minecraft utility with combat controls, visuals, Blink packet modes, and secure saved configs.",
+      "A high-performance Minecraft utility with configurable modules, clean overlays, sync controls, and secure saved configs.",
   },
   robots: {
     index: true,
@@ -100,7 +99,7 @@ const jsonLd = {
       applicationCategory: "GameApplication",
       operatingSystem: "Windows",
       description:
-        "A high-performance C++ Minecraft utility featuring aim assist, reach, clickers, velocity, visual enhancements, Blink packet modes, and secure saved configs.",
+        "A high-performance Minecraft utility featuring configurable modules, clean overlays, sync controls, and secure saved configs.",
       url: "https://tren.gg",
       author: { "@id": "https://tren.gg/#organization" },
       offers: {

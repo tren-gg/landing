@@ -20,17 +20,86 @@ export const metadata: Metadata = {
   },
 };
 
-const FAQS = [
-  ["How do I cancel my subscription?", "Add a short, plain answer here describing cancellation through the Portal and that access continues to the end of the paid period."],
-  ["Why did the Client stop working when my subscription expired?", "Explain that the license validates against an active subscription and that Client access is disabled immediately on expiry, even though Portal access stays available."],
-  ["How do I move my seat to a different computer?", "Walk through releasing a seat from the Portal and the 24-hour processing window before a new device can be authorized."],
-  ["Why is seat release locked for 24 hours?", "Note that the delay is an anti-sharing measure, not waivable, and applies uniformly across tiers."],
-  ["Can I get a refund?", "Summarize the narrow refund exception: within 24-48 hours of the original charge, when the Service is materially non-functional. List what does not qualify."],
-  ["I was banned on a Minecraft server. What can Tren do?", "Be direct: Tren is not affiliated with Mojang, Microsoft, or any server. Server enforcement is outside our control and bans are not a refund event."],
-  ["How do I delete my account?", "Describe the in-Portal deletion flow, that it cancels the Stripe subscription, revokes sessions, hard-deletes the account, and is irreversible."],
-  ["Where is my data stored, and who can see it?", "Mention US-based hosting, the five named sub-processors, and the need-to-know access policy for production data."],
-  ["Why did you charge me again? I thought I cancelled.", "Cover the most common cause: cancellation happens at end of period, and renewal may have already processed if started after the renewal date."],
-  ["Someone is selling Tren keys. Are they legit?", "State plainly: Tren does not work with resellers. Anything sold through a third party is not an account with Tren and has no support recourse."],
+const FAQ_SECTIONS = [
+  {
+    title: "Start here",
+    items: [
+      [
+        "Is TREN legitimate?",
+        "Yes. We've been running since 2025, we process payments through industry standard methods (not direct wallet addresses), and every authorized seller has a public verification page. If someone DMs you offering TREN at a discount, they're not us.",
+      ],
+      ["Who runs TREN?", "A small independent team based in the US operates TREN."],
+      [
+        "How do I pay?",
+        "We accept cryptocurrency as well as other common payment forms such as credit cards.",
+      ],
+      [
+        "How long does activation take?",
+        "Activation will take just a minute. Once your payment confirms, your subscription is active immediately. If you haven't received access within 30 minutes of confirmation, message us.",
+      ],
+      [
+        "Can I get a refund?",
+        "All sales are final once you download the software. If you hit a technical issue you can't resolve, contact us within 7 days, we'll either fix it or refund. We don't refund for bans or detection.",
+      ],
+      [
+        "Do you offer a free trial?",
+        "No. Our threat model makes account-based trials impractical.",
+      ],
+      [
+        "What does my subscription include?",
+        "The TREN client for Minecraft Java Edition, supported on Windows, plus all updates released during your active subscription.",
+      ],
+    ],
+  },
+  {
+    title: "Using TREN",
+    items: [
+      [
+        "How do I download TREN after subscribing?",
+        "Sign in at portal.tren.gg, go to Downloads, and click. Each download link is tied to your account.",
+      ],
+      [
+        "What devices can I use TREN on?",
+        "Three active devices per subscription. You can switch devices from the portal, with a short cooldown between switches.",
+      ],
+      ["Does TREN work on Bedrock, consoles, or Pocket Edition?", "No. Java Edition only."],
+      [
+        "What if I lose access to my email?",
+        "Message us with your order ID and the wallet address you paid from. We'll verify and restore access.",
+      ],
+      [
+        "Can I share my subscription with a friend?",
+        "No. Subscriptions are per-account. Account sharing can result in suspension.",
+      ],
+    ],
+  },
+  {
+    title: "Detection & risk",
+    items: [
+      [
+        "Will I get banned?",
+        "Any third-party client carries risk. We work to minimize detection but can't guarantee any outcome. If you're not comfortable with that risk, this product isn't for you.",
+      ],
+      [
+        "What servers does TREN work on?",
+        "Servers where the operator permits client modifications, or where you accept the risk of detection. We don't publish a server compatibility list.",
+      ],
+      [
+        "Do you offer a ban-protection guarantee?",
+        "No. Anyone in this space offering one is misleading you.",
+      ],
+    ],
+  },
+  {
+    title: "Support",
+    items: [
+      ["How do I contact support?", "Email us. We usually respond within 24 hours."],
+      [
+        "What should I include in a support request?",
+        "Your order ID, account email, what you tried, and what happened. The more specific, the faster we can help.",
+      ],
+    ],
+  },
 ];
 
 const LANES = [
@@ -112,27 +181,40 @@ export default function ContactPage() {
           <SectionIntro eyebrow="01 / start here" title="Frequently asked." lede="If your question is in this list, you can answer it right now without writing to us. Click a row to expand." />
           <div className="col-span-12 lg:col-span-7">
             <div className="border-t border-black/10">
-              {FAQS.map(([question, answer], index) => (
-                <details key={question} className="group border-b border-black/10">
-                  <summary className="grid cursor-pointer list-none grid-cols-[56px_1fr_32px] items-baseline gap-5 py-7 transition-colors hover:text-ink-500 [&::-webkit-details-marker]:hidden">
-                    <span className="pt-2 text-[10px] uppercase tracking-[0.22em] text-ink-400">
-                      {String(index + 1).padStart(2, "0")}
-                    </span>
-                    <span className="text-2xl font-medium leading-tight tracking-tightest text-ink-950">
-                      {question}
-                    </span>
-                    <span aria-hidden="true" className="relative h-4 w-4 self-center text-ink-500 before:absolute before:left-0 before:right-0 before:top-1/2 before:h-px before:bg-current after:absolute after:bottom-0 after:left-1/2 after:top-0 after:w-px after:bg-current group-open:after:scale-y-0" />
-                  </summary>
-                  <div className="grid grid-cols-[56px_1fr_32px] gap-5 pb-8">
-                    <p className="col-start-2 max-w-2xl text-[15px] leading-relaxed text-ink-500">
-                      <span className="mb-3 inline-block border border-dashed border-ink-400 px-2 py-0.5 text-[10px] uppercase tracking-[0.22em] text-ink-500">
-                        draft / fill in
-                      </span>
-                      <br />
-                      {answer}
-                    </p>
+              {FAQ_SECTIONS.map((section, sectionIndex) => (
+                <div key={section.title}>
+                  <div className="border-b border-black/10 py-5 text-[10px] uppercase tracking-[0.22em] text-ink-400">
+                    {section.title}
                   </div>
-                </details>
+                  {section.items.map(([question, answer], index) => {
+                    const questionNumber =
+                      FAQ_SECTIONS.slice(0, sectionIndex).reduce(
+                        (total, current) => total + current.items.length,
+                        0,
+                      ) +
+                      index +
+                      1;
+
+                    return (
+                      <details key={question} className="group border-b border-black/10">
+                        <summary className="grid cursor-pointer list-none grid-cols-[56px_1fr_32px] items-baseline gap-5 py-7 transition-colors hover:text-ink-500 [&::-webkit-details-marker]:hidden">
+                          <span className="pt-2 text-[10px] uppercase tracking-[0.22em] text-ink-400">
+                            {String(questionNumber).padStart(2, "0")}
+                          </span>
+                          <span className="text-2xl font-medium leading-tight tracking-tightest text-ink-950">
+                            {question}
+                          </span>
+                          <span aria-hidden="true" className="relative h-4 w-4 self-center text-ink-500 before:absolute before:left-0 before:right-0 before:top-1/2 before:h-px before:bg-current after:absolute after:bottom-0 after:left-1/2 after:top-0 after:w-px after:bg-current group-open:after:scale-y-0" />
+                        </summary>
+                        <div className="grid grid-cols-[56px_1fr_32px] gap-5 pb-8">
+                          <p className="col-start-2 max-w-2xl text-[15px] leading-relaxed text-ink-500">
+                            {answer}
+                          </p>
+                        </div>
+                      </details>
+                    );
+                  })}
+                </div>
               ))}
             </div>
           </div>

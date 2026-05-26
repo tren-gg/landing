@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Tren - C++ Minecraft Utility";
+export const alt = "Tren - Minecraft Utility Modules";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -40,7 +40,7 @@ export default function OgImage() {
               maxWidth: 700,
             }}
           >
-            A sleek C++ Minecraft utility with combat controls, visuals, Blink packet modes, and secure configs.
+            A sleek Minecraft utility with configurable modules, overlays, sync controls, and secure configs.
           </div>
         </div>
         <div
@@ -70,9 +70,9 @@ export default function OgImage() {
               letterSpacing: "0.22em",
             }}
           >
-            <span>Combat</span>
+            <span>Modules</span>
             <span>Visuals</span>
-            <span>Blink</span>
+            <span>Sync</span>
             <span>Configs</span>
           </div>
         </div>

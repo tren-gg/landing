@@ -19,7 +19,7 @@ export default function Mappings() {
             maintained plainly.
           </>
         }
-        lede="The current codebase carries explicit mapping tables for older Minecraft targets. Updating support means editing and validating those tables before making compatibility claims."
+        lede="The current codebase carries explicit mapping tables for older Minecraft targets. Updating support means validating those tables before making compatibility claims."
       />
 
       <div className="mt-10 grid grid-cols-12 gap-x-0 gap-y-8 sm:mt-12 sm:gap-x-8 md:mt-16 lg:gap-x-10">

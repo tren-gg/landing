@@ -4,7 +4,7 @@ This document summarizes our Privacy Policy and Terms of Service. It is provided
 
 ## About Tren
 
-Tren is a desktop injection client compatible with Minecraft and Minecraft-adjacent clients, together with an account portal at portal.tren.gg. Access is provided on a recurring subscription basis. Tren is not affiliated with Mojang Studios or Microsoft Corporation.
+Tren is a desktop utility client compatible with Minecraft and Minecraft-adjacent clients, together with an account portal at portal.tren.gg. Access is provided on a recurring subscription basis. Tren is not affiliated with Mojang Studios or Microsoft Corporation.
 
 ## Information Collected
 
@@ -55,7 +55,7 @@ Users may not:
 
 ## Use on Third-Party Platforms
 
-Users are solely responsible for ensuring that their use of the Client complies with the rules of any Minecraft client, server, network, or platform on which it is run. Tren does not endorse or facilitate the violation of third-party terms and is not responsible for any resulting enforcement actions taken by such third parties, including bans or suspensions.
+Users are solely responsible for ensuring that their use of the Client complies with the rules of any Minecraft client, server, network, or platform on which it is run. Tren does not endorse or facilitate the violation of third-party terms and is not responsible for any resulting enforcement actions taken by such third parties.
 
 ## Subscription Expiry and Termination
 

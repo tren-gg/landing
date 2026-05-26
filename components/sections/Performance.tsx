@@ -6,12 +6,12 @@ const POINTS = [
     copy: "The core runs inside the game process, so module logic stays close to the state it reads and updates.",
   },
   {
-    name: "C++ core",
-    copy: "Native C++ keeps the runtime lean, responsive, and suited for fast module loops.",
+    name: "Native core",
+    copy: "Native code keeps the runtime lean, responsive, and suited for fast module loops.",
   },
   {
-    name: "Java Native Interface",
-    copy: "JNI lets the internal module bridge native C++ with Minecraft's Java objects while keeping the loader small.",
+    name: "Compatibility bridge",
+    copy: "A small bridge layer helps Tren work with supported Minecraft versions while keeping the loader small.",
   },
   {
     name: "Secure settings",
@@ -33,7 +33,7 @@ export default function Performance() {
                 because it is internal.
               </>
             }
-            lede="Tren keeps the loader small and puts the performance critical work in the injected C++ module."
+            lede="Tren keeps the loader small and puts the performance critical work in the local utility module."
           />
         </div>
 
