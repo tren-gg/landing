@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { portalSignInUrl, portalUrl } from "@/lib/portal";
+import SyringeMark from "./SyringeMark";
 
 const NAV_LINKS = [
   { href: "/#features", label: "Features" },
@@ -11,16 +12,17 @@ const NAV_LINKS = [
 
 export default function Nav() {
   return (
-    <header className="sticky top-0 z-50 border-b border-white/10 bg-black">
+    <header className="sticky top-0 z-50 border-b border-white/10 bg-ink-950/90 text-white backdrop-blur">
       <div className="mx-auto flex h-14 max-w-page items-center justify-between px-6">
         <Link
           href="/"
           aria-label="Tren home"
-          className="group flex items-center gap-2.5"
+          className="group flex items-center gap-3"
         >
+          <SyringeMark className="h-5 w-5 text-white" />
           <span
             aria-hidden="true"
-            className="select-none text-[27px] font-light leading-none text-white"
+            className="select-none text-[27px] font-medium leading-none text-white"
           >
             tren.
           </span>
@@ -47,9 +49,10 @@ export default function Nav() {
           </Link>
           <Link
             href={portalUrl()}
-            className="inline-flex h-9 items-center gap-2 border border-white/15 bg-white px-4 text-[13px] font-medium text-ink-950 transition-colors hover:bg-ink-100"
+            className="inline-flex h-9 items-center gap-5 border border-white/15 bg-white px-4 text-[13px] font-medium text-ink-950 transition-colors hover:bg-ink-100"
           >
-            account
+            <span>account</span>
+            <span aria-hidden="true">-&gt;</span>
           </Link>
         </div>
       </div>
